@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body {
+  background-color: #f6f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* nav style */
 header{
@@ -54,6 +58,8 @@ nav{
 
 }
 /* Preview Section */
+    
+
 .preview {
   display: flex;
   align-items: center;
@@ -103,5 +109,45 @@ nav{
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
+/* productive users section */
+
+.stats-container {
+  background-color: #e8eaff;
+  border-radius: 20px;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.stats-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e1e2f;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555b73;
+  margin-top: 6px;
+}  
 
 
